@@ -1,2 +1,2 @@
 # bash-scripts
-Collection of Bash Scripts I've written
+A collection of Bash Scripts I've written

@@ -176,13 +176,12 @@ function set-folder-logs
 ### Main Script starts:
 
 #Generate menu & launch functions
-PS3="Select what you would like to do (4 quits): "
-select option in "zip-logs" "display-errors" "testing" "exit"
+PS3="Select what you would like to do (3 quits): "
+select option in "zip-logs" "display-errors" "exit"
 do
 	case $option in
 		zip-logs) set-folder-logs;;
 		display-errors) display-things;;
-		testing) make-logs $DateTime;;
 		exit) exit 0;;
 	esac
 done
